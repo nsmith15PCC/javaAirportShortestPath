@@ -34,7 +34,7 @@ public class CSVParser {
         return ret;
     }
 
-    public String[] getNext() {
+    public List<String> getNext() {
         String nextLine;
         try {
             nextLine = br.readLine();
@@ -47,7 +47,7 @@ public class CSVParser {
             return null;
         }
         else {
-            return (String[]) parseLine(nextLine).toArray();
+            return parseLine(nextLine);
         }
     }
 }
