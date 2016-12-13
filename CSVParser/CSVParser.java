@@ -44,6 +44,12 @@ public class CSVParser {
             return null;
         }
         if(nextLine == null) {
+            try {
+                br.close();
+            }
+            catch(IOException e) {
+                System.out.println("Error closing file.");
+            }
             return null;
         }
         else {
