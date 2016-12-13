@@ -1,4 +1,4 @@
-package CSVParser;
+package db.CSVParser;
 
 import java.io.FileReader;
 import java.io.BufferedReader;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class CSVParser {
     private BufferedReader br;
 
-    CSVParser(String filename) throws IOException {
+    public CSVParser(String filename) throws IOException {
         br = new BufferedReader(new FileReader(filename));
     }
 
@@ -31,6 +31,7 @@ public class CSVParser {
                 sb.append(c);
             }
         }
+        ret.add(sb.toString());
         return ret;
     }
 

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Dec 12 18:56:18 PST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0158-f61b-f9bc-0000035da838 
+on database directory /Users/natesmith/java/javaAirportShortestPath/db/db with class loader sun.misc.Launcher$AppClassLoader@60e53b93 
+Loaded from file:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_112-b16
+user.dir=/Users/natesmith/java/javaAirportShortestPath
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.12.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
